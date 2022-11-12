@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    margin: 0 ;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+body>h1{
+    color: red;
+    font-size: 60px;
+}
+.gioi-tinh{
+    margin-right: 35%;
+}

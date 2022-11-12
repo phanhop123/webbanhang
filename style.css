@@ -1,0 +1,402 @@
+
+
+.tong {
+  width: 100%;
+  height: 20%;
+  margin: 0 0;
+}
+
+img 
+{
+  width: 100%;
+  height: 450px;
+  object-fit: fill ;
+}
+.phan-dau {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.dangki-dangnhap {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  
+}
+
+.dangki-dangnhap ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: red;
+}
+
+li 
+{
+  float: left;
+}
+
+ul li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul li a:hover
+
+ {
+  background-color: #111111;
+  
+}
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+.trang-chu
+ {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(34, 31, 31, 0);
+}
+
+
+.trang-chu ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+
+.hmenu>li
+{
+  width: 13.5%;
+  background-color: red;
+  font-size: 15px;
+  bottom: 4.5px;
+}
+
+
+
+/* class con cua trang chu  */
+.sub-menu {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px orangered; */
+  list-style: none;
+  width: 150px; 
+
+  height: 185px ;
+  z-index: 1;
+  position: absolute;
+  display: none;
+  font-size: 20px;
+}
+
+.sub-menu>li>a 
+{
+  display: block;
+  line-height: 30px;
+  /* border-bottom: 1px dotted in white; */
+  text-decoration: none;
+  font-variant: small-caps;
+  padding-left: 25px;
+  /* background: red; */
+  color: orangered;
+}
+
+
+
+.sub-menu>li>a:hover 
+{
+  color: red;
+  font-weight: bolder;
+}
+
+
+/* phan cuoi */
+
+/* san pham */
+
+.muc
+{
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  float: left;
+}
+
+    .muc__mot{
+      display: flex;
+      float: left;
+    }
+    .muc__hai{
+      display: flex;
+    }
+    .muc__ba{
+      display: flex;
+    }
+
+.prod
+
+{
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.prod>.name 
+
+{
+  font-variant: small-caps;
+  color: orangered;
+}
+
+
+.prod>.imga 
+{
+  max-width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.prod>.price {
+  position: absolute;
+  left: 1px;
+  bottom: 5px;
+  font-family: Impact;
+  font-size: 25px;
+  color: green;
+}
+
+.prod>.icons
+ {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 25px;
+}
+
+.prod>.new
+ {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+.prod>.icons>img 
+{
+  height: 25px;
+  width: 100%;
+}
+
+
+/* chuc nang */
+
+.chuc-nang>.content>.vmenu
+ {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px gray;
+  float: right;
+}
+
+.vmenu a {
+  background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/269699140_662425294938614_5968632498968086060_n.png?stp=cp0_dst-png&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=MOlpaQxwftUAX9FeI9U&_nc_ht=scontent.xx&oh=03_AVJiRw5pdzR2Fr-Lwq9PetKJ84VuZSpmz5_PkNnO26vVuQ&oe=6353867F) no-repeat 10px center;
+  display: block;
+  border: 0px dotted black;
+  color: black;
+  font-variant: small-caps;
+  font-size: larger;
+  text-decoration: none;
+  padding: 10px 10px 10px 2px;
+ align-items: center;
+}
+
+.vmenu li {
+  list-style: none;
+  border: 0px dotted black;
+}
+
+.vmenu {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.vmenu a:hover {
+  background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/295627459_612987530542978_6424655686516402289_n.png?stp=cp0_dst-png&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=PySjQ97oJ2YAX8HVXE-&_nc_ht=scontent.xx&oh=03_AVLWdcrUZ2IR0-ww7JHA8eu5EJYtHmPPoHj5ephWUdjvnw&oe=635520D4) no-repeat 10px center;
+  border-bottom: 0px dotted white;
+  background-color: red;
+  color: white;
+  font-weight: bold
+}
+
+ul.hmenu>li 
+{
+  float: left;
+  margin: 0 5px;
+  position: relative;
+}
+
+ul.hmenu>li:hover>.sub-menu {
+  display: block;
+}
+
+
+.chuc-nang{
+  display: flex;
+}
+
+
+.chuc-nang>.content>.vmenu>li>a
+{
+  height: 200px;
+}
+/* chú thích  */
+.chinhthich{
+  background-color: #333333;
+ float: left;
+ display: flex;
+ overflow: hidden;
+}
+.chinhsach{
+ 
+  width: 100%;
+  bottom: 0px;
+  background-color: rgba(34, 31, 31, 0);
+}
+
+.chinhsach {
+  right: 0px;
+  top: 0px;
+  
+}
+.chinhsach>ul>img
+{
+  display: block;
+  height: 40px;
+  width: 200px;
+ 
+  float: left;
+}
+
+.chinhsach>ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: red
+  ;
+}
+
+.chinhsach>ul>li
+{
+  float: none;
+  font-size: 15px;
+  color:  white;
+}
+
+.doitra>ul>img
+{
+  display: block;
+  height: 40px;
+  width: 200px;
+ 
+  float: left;
+}
+
+.doitra>ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: red
+  ;
+}
+
+.doitra>ul>li
+{
+  float: none;
+  font-size: 15px;
+  color:  white;
+}
+
+.thanhtoan>ul>img
+{
+  display: block;
+  height: 40px;
+  width: 200px;
+ 
+  float: left;
+}
+
+.thanhtoan>ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: red
+  ;
+}
+
+.thanhtoan>ul>li
+{
+  float: none;
+  font-size: 15px;
+  color:  white;
+}
+
+.tuvan>ul>img
+{
+  display: block;
+  height: 40px;
+  width: 200px;
+ 
+  float: left;
+}
+
+.tuvan>ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: red
+  ;
+}
+
+.tuvan>ul>li
+{
+  float: none;
+  font-size: 15px;
+  color:  white;
+}
+
+.tacgia{
+  font-size: 25px;
+}
